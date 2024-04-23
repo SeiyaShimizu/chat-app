@@ -12,6 +12,23 @@
   width: 100%;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.newchat a{
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 
 .side_bottom{
@@ -19,6 +36,7 @@
   width: 100%;
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .chat{
@@ -47,4 +65,11 @@
   padding: 20px 40px;
 }
 
+.chatroom {
+  padding: 20px 0 40px 0;
+}
 
+.roomname a{
+  color: white;
+  text-decoration: none;
+} 
